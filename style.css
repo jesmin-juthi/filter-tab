@@ -1,0 +1,28 @@
+body{
+	font-family: arial;
+	background: #efefef;
+}
+.navigation{
+	padding: 25px 0;
+}
+.navigation a{
+	margin-right: 5px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	padding: 10px 25px;
+	border-radius: 50px;
+	color: #e74c3c;
+}
+.navigation a.active{
+	background: #e74c3c;
+	border-color: #e74c3c;
+	color: #fff;
+}
+.imageContainer div{
+	display: inline-block;
+}
+img{
+	margin: 5px;
+	width: 400px;
+	height: 250px;
+}
